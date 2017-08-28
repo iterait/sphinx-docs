@@ -80,7 +80,7 @@ todo_include_todos = True
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_static_path = [os.path.join(os.path.dirname(__file__), '_static')]
-html_sidebars = {'**': ['relations_side.html', 'localtoc.html', 'searchbox.html']}
+html_sidebars = {'**': ['relations_side.html', 'localtoc.html', 'searchbox.html', 'related.html']}
 html_theme_options = {
     # Render the next and previous page links in navbar. (Default: true)
     'navbar_sidebarrel': False,
