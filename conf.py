@@ -37,15 +37,16 @@ import sphinx_bootstrap_theme
 
 extensions = \
     ['sphinx.ext.autodoc',
-    'autoapi.sphinx',
-    'sphinx.ext.inheritance_diagram',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.ifconfig',
-    'sphinx.ext.mathjax',
-    'sphinx.ext.viewcode',
-    'sphinx_autodoc_typehints']
+     'sphinxarg.ext',
+     'autoapi.sphinx',
+     'sphinx.ext.inheritance_diagram',
+     'sphinx.ext.intersphinx',
+     'sphinx.ext.todo',
+     'sphinx.ext.coverage',
+     'sphinx.ext.ifconfig',
+     'sphinx.ext.mathjax',
+     'sphinx.ext.viewcode',
+     'sphinx_autodoc_typehints']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = [os.path.join(os.path.dirname(__file__), '_templates')]
