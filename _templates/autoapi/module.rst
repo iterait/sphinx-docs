@@ -60,6 +60,7 @@ Classes
    :members:
    :private-members:
    :special-members:
+   :exclude-members: __weakref__
 
    .. inheritance-diagram:: {{ item }}
       :parts: 1
