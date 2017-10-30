@@ -48,6 +48,10 @@ extensions = \
      'sphinx.ext.viewcode',
      'sphinx_autodoc_typehints']
 
+html_context = {
+    "analytics_id": None # Google analytics tracking id
+}
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = [os.path.join(os.path.dirname(__file__), '_templates')]
 
