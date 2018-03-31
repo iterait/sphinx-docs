@@ -73,3 +73,12 @@ border: 1px solid #aaaaaa;
 text-align:center;
 margin-top:5px;
 margin-bottom:5px;}
+
+.navbar-worker {
+    background-color: #3366cc;
+    border-color: #333399;
+}
+
+.navbar-worker .navbar-nav li a:hover {
+    background-color: #333399;
+}
