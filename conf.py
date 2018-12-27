@@ -49,7 +49,7 @@ extensions = \
      'sphinx_autodoc_typehints']
 
 html_context = {
-    "analytics_id": None # Google analytics tracking id
+    "analytics_id": 'UA-129185891-2' # Google analytics tracking id
 }
 
 # Add any paths that contain templates here, relative to this directory.
@@ -133,7 +133,7 @@ html_theme_options = {
 }
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'python': ('https://docs.python.org/3.6', None),
+ intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
                        'emloop': ('https://emloop.org', None),
                        'emloop_tensorflow': ('https://tensorflow.emloop.org', None)}
 
