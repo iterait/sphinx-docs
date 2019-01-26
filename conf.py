@@ -133,7 +133,7 @@ html_theme_options = {
 }
 
 # Example configuration for intersphinx: refer to the Python standard library.
- intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
+intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
                        'emloop': ('https://emloop.org', None),
                        'emloop_tensorflow': ('https://tensorflow.emloop.org', None)}
 
